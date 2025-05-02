@@ -24,7 +24,7 @@ class TodoLocalDataSource {
       'id INTEGER PRIMARY KEY AUTOINCREMENT,'
       'title TEXT NOT NULL,'
       'description TEXT NOT NULL,'
-      ' isCompleted INTEGER NOT NULL DEFAULT 0,'
+      ' isCompleted INTEGER NOT NULL DEFAULT 0'
       ')',
     );
   }
